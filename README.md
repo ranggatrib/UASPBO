@@ -5,30 +5,30 @@ https://seen-guava-b40.notion.site/Resume-22e593e4804c8097b072c2c70156a281?pvs=1
 
 ## 🧪 Final Project
 
-### 🔧 **Project 1: API Service**
+### 🔧 **Project 1: Building an API Service**
 
-#### 📌 Fitur:
-- Register
-- Login
-- Get User Data
-- Update User Data
-- Set User Status: Active / Inactive
-- Soft Delete User (non-permanen)
+#### 🎯 Fitur:
+- ✅ Register
+- ✅ Login
+- ✅ Get User Data
+- ✅ Update User Data
+- ✅ Set User Status: Active / Inactive
+- ✅ Soft Delete User (non-permanen)
 
-#### 📦 Teknologi:
-- Node.js / Express
-- MongoDB / MySQL
-- PM2 (untuk menjalankan background service)
-- nginx (proxy_pass untuk routing API)
-- Ngrok (jika menggunakan Local Server/WSL)
-
-#### 🚀 Deployment:
-- Local (WSL/localhost) → via **Ngrok**
-- Public (VPS) → via **nginx + PM2**
-
+#### 🛠️ Teknologi:
+- 🟩 Node.js / Express
+- 🍃 MongoDB / 🐬 MySQL
+- ♻️ PM2 (background service)
+- 🌐 nginx (`proxy_pass`)
+- 🌍 Ngrok (untuk local server / WSL)
+  
+  #### 🚀 Deployment:
+- 💻 Lokal (via Ngrok untuk WSL)
+- ☁️ Publik (via VPS dengan nginx + PM2)
+  
 ## ⚙️ Cara Menjalankan Project
 
-### 1. Clone Repository
+#### 1. Clone Repository
 ```bash
 git clone https://github.com/ranggatrib/Final-Bootcamp.git
 cd Final-Bootcamp/api-service
@@ -65,7 +65,7 @@ pm2 start app.js --name api-service
 ngrok http 3000
 ```
 
-## 🔀 Endpoint API
+## 🔁 Endpoint API
 
 | Method | Endpoint                | Deskripsi                    |
 |--------|-------------------------|------------------------------|
@@ -81,10 +81,10 @@ ngrok http 3000
 Authorization: Bearer <your_token>
 ```
 
-## ✅ Deployment
-- Server dijalankan di background menggunakan **PM2**
-- Untuk public access (via domain), menggunakan **NGINX** dan `proxy_pass`
-- Untuk lokal (via WSL), gunakan **Ngrok**
+## 🌐 Deployment
+🛠️ PM2: untuk menjalankan project di background
+🌐 NGINX: untuk akses publik via domain (proxy ke localhost)
+🌍 Ngrok: jika menggunakan WSL / lokal dan ingin expose ke publik
 
-## ✅ PM2 Status
+## ⚙️ PM2 Status
 <img src="pm2.png" width="700"/>
