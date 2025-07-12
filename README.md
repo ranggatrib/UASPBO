@@ -8,23 +8,23 @@ https://seen-guava-b40.notion.site/Resume-22e593e4804c8097b072c2c70156a281?pvs=1
 ### 🔧 **Project 1: Building an API Service**
 
 #### 🎯 Fitur:
-- ✅ Register
-- ✅ Login
-- ✅ Get User Data
-- ✅ Update User Data
-- ✅ Set User Status: Active / Inactive
-- ✅ Soft Delete User (non-permanen)
+- Register
+- Login
+- Get User Data
+- Update User Data
+- Set User Status: Active / Inactive
+- Soft Delete User (non-permanen)
 
 #### 🛠️ Teknologi:
-- 🟩 Node.js / Express
-- 🍃 MongoDB / 🐬 MySQL
-- ♻️ PM2 (background service)
-- 🌐 nginx (`proxy_pass`)
-- 🌍 Ngrok (untuk local server / WSL)
+- Node.js / Express
+- MongoDB / MySQL
+- PM2 (background service)
+- nginx (`proxy_pass`)
+- Ngrok (untuk local server / WSL)
   
-  #### 🚀 Deployment:
-- 💻 Lokal (via Ngrok untuk WSL)
-- ☁️ Publik (via VPS dengan nginx + PM2)
+#### 🚀 Deployment:
+- Lokal (via Ngrok untuk WSL)
+- Publik (via VPS dengan nginx + PM2)
   
 ## ⚙️ Cara Menjalankan Project
 
@@ -86,5 +86,5 @@ Authorization: Bearer <your_token>
 🌐 NGINX: untuk akses publik via domain (proxy ke localhost)
 🌍 Ngrok: jika menggunakan WSL / lokal dan ingin expose ke publik
 
-## ⚙️ PM2 Status
+## ♻️ PM2 Status
 <img src="pm2.png" width="700"/>
