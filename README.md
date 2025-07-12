@@ -55,17 +55,17 @@ mongod --dbpath /data/db
 node app.js
 ```
 
-### 5. Jalankan API dengan PM2
+### 6. Jalankan API dengan PM2
 ```bash
 pm2 start app.js --name api-service
 ```
 
-### 6. Gunakan Ngrok (jika di WSL)
+### 7. Gunakan Ngrok (jika di WSL)
 ```bash
 ngrok http 3000
 ```
 
-## 📫 Endpoint API
+## 🔀 Endpoint API
 
 | Method | Endpoint                | Deskripsi                    |
 |--------|-------------------------|------------------------------|
